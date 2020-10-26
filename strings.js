@@ -68,4 +68,6 @@ let wafflesAppended = waffles += 'a';
 console.log(`The value of waffles with an appended letter is now: ${wafflesAppended}`);
 console.log('');
 
-// Template Literals (what is a template literal?)
+// Template Literals (what is a template literal? -- a template literal uses backticks)
+let firstName = 'Kevin'; // dynamic as in user input in console?
+console.log(`Hello, ${firstName}!`);
